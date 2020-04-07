@@ -1,0 +1,61 @@
+.user {
+  display: flex;
+  flex-direction: column;
+  border: 5px solid black;
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  background-image: linear-gradient(red, yellow);
+  color: #1d1d1c;
+  transition: all 0.2s ease-in-out;
+  transform: skewX(-5deg);
+}
+
+.user:hover {
+  transform: scale(1.2);
+  transform: skewX(5deg);
+}
+
+.user img {
+  width: 80%;
+  margin: 0 auto;
+}
+.followers {
+  border: 3px solid darkslategrey;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(blue, darkslategrey);
+  color: rgb(175, 175, 238);
+  transition: all 0.2s ease-in-out;
+}
+
+.followers:hover {
+  transform: scale(1.1);
+  transform: skewY(20deg);
+}
+
+.followersAll {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.followersAll img {
+  width: 150px;
+}
+
+.followersAll small {
+  color: rgb(231, 231, 231);
+}
+
+.followersAll small:hover {
+  color: rgb(168, 168, 219);
+}
